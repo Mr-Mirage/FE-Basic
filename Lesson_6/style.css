@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+.parent{
+    border: 5px solid red;
+    width: 600px;
+    margin: 0 auto;
+    height: 800px;
+    
+}
+
+.block1{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px 0;
+    
+}
+
+.block2{
+    text-align: center;
+    background-color: blue ;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    
+    /* left: 50px; */
+    /* right: ; */
+    /* top: 50px; */
+    /* bottom: ; */
+    /* z-index: -1; */
+}
+
+.block3{
+    text-align: center;
+    background-color: rgb(86, 83, 168);
+    padding: 10px 0;
+    /* position: relative; */
+    /* z-index: 2; */
+   
+}
+
+.block4{
+    text-align: center;
+    background-color: burlywood;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.block5{
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+}
+
